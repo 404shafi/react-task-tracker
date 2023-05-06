@@ -1,0 +1,44 @@
+.add-btn {
+  border: none;
+  padding: 8px 12px;
+  width: 100px;
+  cursor: pointer;
+  font-size: larger;
+}
+.task {
+  background-color: gainsboro;
+  padding: 12px;
+  margin: 12px 0;
+  position: relative;
+}
+.deleteTask {
+  cursor: pointer;
+  color: red;
+  background-color: gainsboro;
+  border: none;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  font-size: larger;
+}
+
+.reminder {
+  border-left: solid red;
+}
+label {
+  display: block;
+  margin: 12px;
+}
+input[type="text"],
+input[type="submit"] {
+  display: block;
+  width: 70%;
+  margin: 12px;
+  padding: 12px;
+}
+.reminder-box {
+  display: flex;
+}
+input[type="submit"] {
+  cursor: pointer;
+}
